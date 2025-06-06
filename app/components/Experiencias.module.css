@@ -1,14 +1,16 @@
 .experiencias {
   padding: 6rem 2rem;
   animation: fadeIn 0.8s ease-in-out;
+  text-align: center;
 }
 
 .titulo {
   font-size: 2rem;
-  margin-bottom: 3rem;
+  display: inline-block;
   border-left: 4px solid #00f2ff;
   padding-left: 0.5rem;
-  text-align: left;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
 .blocos {
@@ -62,6 +64,7 @@
   margin-inline: auto;
   font-size: 1.1rem;
   box-shadow: 0 0 20px #00f2ff22;
+  text-align: left;
 }
 
 

@@ -5,11 +5,12 @@
 }
 
 .titulo {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  display: inline-block;
   border-left: 4px solid #00f2ff;
   padding-left: 0.5rem;
-  display: inline-block;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .texto {

@@ -3,6 +3,7 @@
   opacity: 0;
   transform: translateY(40px);
   transition: all 0.8s ease;
+  text-align: center;
 }
 
 .visible {
@@ -12,9 +13,11 @@
 
 .titulo {
   font-size: 2rem;
+  display: inline-block;
   border-left: 4px solid #00f2ff;
   padding-left: 0.5rem;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .grid {

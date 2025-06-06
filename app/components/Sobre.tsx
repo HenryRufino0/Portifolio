@@ -23,7 +23,7 @@ export default function Sobre() {
         <div className={styles.texto}>
           <h2 className={styles.titulo}>🙋‍♂️ 💻 Sobre Mim</h2>
           <p>
-            Sou apaixonado por tecnologia desde cedo. Me especializei em desenvolvimento fullstack,
+            Sou apaixonado por tecnologia desde cedo. Me especializei em desenvolvimento Back-End e Front-End,
             com foco em soluções que otimizam tempo e melhoram a experiência do usuário. Trabalhei
             com automações, APIs, visualizações de dados e tenho forte atuação em backend com Python
             e frontend com JavaScript.

@@ -3,6 +3,7 @@
   opacity: 0;
   transform: translateY(40px);
   transition: all 0.8s ease;
+  text-align: center;
 }
 
 .visible {
@@ -61,4 +62,12 @@
 .visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.titulo {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #00f2ff;
+  padding-left: 0.5rem;
+  display: inline-block;
 }

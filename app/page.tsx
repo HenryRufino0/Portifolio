@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Contato from './components/Contato';
 import styles from './page.module.css';
 import Projetos from './components/Projetos';
+import Conquistas from './components/Conquistas';
 
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
         <button onClick={() => scrollTo('sobre')}>Sobre</button>
         <button onClick={() => scrollTo('experiencias')}>Experiências</button>
         <button onClick={() => scrollTo('projetos')}>Projetos</button>
+        <button onClick={() => scrollTo('conquistas')}>Conquistas</button>
         <button onClick={() => scrollTo('skills')}>Skills</button>
         <button onClick={() => scrollTo('contato')}>Contato</button>
         
@@ -43,7 +45,9 @@ export default function Home() {
       <Experiencias />
       <Projetos />
       <Skills />
+      <Conquistas />
       <Contato />
+      
 
       
 

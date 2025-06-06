@@ -3,16 +3,18 @@
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 0.8s ease, transform 0.8s ease;
+  text-align: center;
 }
 
 .titulo {
-  font-size: 1.8rem;
-  margin-bottom: 2rem;
+  font-size: 2rem;
+  display: inline-block;
   border-left: 4px solid #00f2ff;
   padding-left: 0.5rem;
-  max-width: 900px;
-  margin-inline: auto;
+  margin-bottom: 3rem;
+  text-align: center;
 }
+
 
 .grid {
   display: grid;
