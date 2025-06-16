@@ -5,6 +5,21 @@ import { useEffect, useRef, useState } from 'react';
 import { FaEye } from 'react-icons/fa';
 
 const projetos = [
+
+  {
+    titulo: 'Este Portifólio',
+    descricao: 'Portifolio online',
+    imagem: '/projetos-images/portifolio.png',
+    link:'https://portifolio-git-main-henry-rufinos-projects.vercel.app'
+  },
+
+  {
+    titulo: 'Site Valle Log Transportes',
+    descricao: 'Site para a empresa Valle Log Transportes.',
+    imagem: 'projetos-images/vallelog.png',
+    link: 'https://vallelogtransportes.com.br'
+  },
+
   {
     titulo: 'Timer Online',
     descricao: 'Timer online na web.',
@@ -17,12 +32,7 @@ const projetos = [
     imagem: '/projetos-images/password.png',
     link: 'https://password-generator-js-six-sooty.vercel.app'
   },
-  {
-    titulo: 'Site Valle Log Transportes',
-    descricao: 'Site para a empresa Valle Log Transportes.',
-    imagem: 'projetos-images/vallelog.png',
-    link: 'https://vallelogtransportes.com.br'
-  },
+  
   {
     titulo: 'Projeto Clone Spotify',
     descricao: 'Projeto clone do Spotify para web',
@@ -59,6 +69,10 @@ const projetos = [
     imagem: '/projetos-images/nanofiber.png',
     link: 'https://github.com/HenryRufino0/NanoFiber-Analyzer'
   },
+
+
+
+
 ];
 
 export default function Projetos() {

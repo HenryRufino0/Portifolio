@@ -15,7 +15,6 @@ const conquistas = [
   { src:'/conquistas-imagens/tomada-decisao.PNG', alt:'Valor na tomada de Decicao'},
   { src:'/conquistas-imagens/data-science.PNG', alt:'Data Science'},
   { src: '/conquistas-imagens/matlab.PNG', alt:'Matlab'},
-  { src: '/conquistas-imagens/convolucao.PNG',alt:'convolucao'},
   { src: '/conquistas-imagens/jornada-python.png',alt:'Jornada Python'},
 
 ];
