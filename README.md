@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Meu Portifólio Online
 
-## Getting Started
+![image](https://github.com/user-attachments/assets/bd24f7d5-762c-4df7-8ba5-be95481d13e9)
 
-First, run the development server:
+
+
+Um projeto moderno e dinâmico desenvolvido com React e Next.js, apresentando um portfólio pessoal com temática futurista. Ideal para exibir projetos, conquistas e informações profissionais de maneira interativa e visualmente atraente.
+
+## Tecnologias Utilizadas
+
+* **React**: Biblioteca JavaScript para construção da interface.
+* **Next.js**: Framework React para renderização otimizada e geração estática de páginas.
+* **CSS Modules**: Estilos encapsulados, garantindo organização e facilidade de manutenção.
+* **JavaScript**: Linguagem principal para lógica e interação do usuário.
+* **Vercel**: Plataforma de hospedagem e deploy.
+
+
+
+![image](https://github.com/user-attachments/assets/b8e3eb93-6319-4f73-8448-00dace2f04a6)
+
+![image](https://github.com/user-attachments/assets/5cee5f18-9ce0-468c-b02b-7e26332d1e7a)
+
+![image](https://github.com/user-attachments/assets/d91b2b74-24e1-4455-8618-f095d522b408)
+
+![image](https://github.com/user-attachments/assets/d6c03b45-0d01-4fd9-a845-46f0be119377)
+
+
+
+## Funcionalidades
+
+* **Seção de Projetos**: Visualização de projetos com descrições e links.
+* **Seção de Conquistas**: Exibição interativa de imagens, com recurso de expansão para leitura detalhada.
+* **Design responsivo e acessível**: Garantindo visualização perfeita em todos os dispositivos.
+* **Animações e interatividade**: Melhoram a experiência do usuário com efeitos modernos.
+
+## Estrutura do Projeto
+
+```
+portifolio-online/
+├── components/
+│   ├── Projetos.js
+│   ├── Projetos.module.css
+│   └── ...
+├── public/
+│   ├── projetos/
+│   │   ├── timer.png
+│   │   └── ...
+│   └── conquistas/
+│       └── ...
+├── pages/
+│   ├── index.js
+│   ├── sobre.js
+│   └── ...
+└── styles/
+    ├── globals.css
+    └── ...
+```
+
+## Como Executar Localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/HenryRufino0/Portifolio.git
+cd Portifolio
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+3. Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse o site em `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O projeto está hospedado no **Vercel**. Cada alteração feita e submetida ao GitHub é automaticamente implantada.
 
-## Learn More
+## Licença
 
-To learn more about Next.js, take a look at the following resources:
+Este projeto é licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desenvolvido por **Henry Rufino** 🚀
