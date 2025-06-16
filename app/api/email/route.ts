@@ -7,18 +7,18 @@ export async function POST(req: Request) {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'rufino.hlr@gmail.com',
-      pass: 'umfg puzn wqaw okso', 
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS, 
     },
   });
 
   try {
     await transporter.sendMail({
-    from: 'Portfolio de Henry <rufino.hlr@gmail.com>',
-    replyTo: email,
-    to: 'rufino.hlr@gmail.com',
-    subject: `Nova mensagem de ${nome}`,
-    text: `Mensagem:\n${mensagem}\n\nEmail de contato: ${email}`,
+      from: `Portfolio de Henry <${process.env.EMAIL_USER}>`,
+      replyTo: email,
+      to: process.env.EMAIL_USER,
+      subject: `Nova mensagem de ${nome}`,
+      text: `Mensagem:\n${mensagem}\n\nEmail de contato: ${email}`,
     });
 
     return NextResponse.json({ success: true, message: 'Email enviado com sucesso.' });
