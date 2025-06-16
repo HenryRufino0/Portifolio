@@ -22,7 +22,7 @@ export async function POST(req: Request) {
     });
 
     return NextResponse.json({ success: true, message: 'Email enviado com sucesso.' });
-  } catch (error) {
-    return NextResponse.json({ success: false, message: 'Erro ao enviar email.' }, { status: 500 });
-  }
+  } catch {
+  return NextResponse.json({ success: false, message: 'Erro ao enviar email.' }, { status: 500 });
+}
 }

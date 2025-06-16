@@ -1,7 +1,7 @@
 'use client';
 
 import styles from './Contato.module.css';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { useEffect, useRef, useState } from 'react';
 
 export default function Contato() {

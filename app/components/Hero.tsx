@@ -6,8 +6,8 @@ import { FaGithub, FaLinkedin, FaFileAlt } from 'react-icons/fa';
 import { useEffect, useRef, useState } from 'react';
 
 export default function Hero({
-  toggleMode,
-  dark,
+  
+  
 }: {
   toggleMode: () => void;
   dark: boolean;

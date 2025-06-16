@@ -1,7 +1,7 @@
 'use client';
 
 import styles from './Conquistas.module.css'
-import { useState,useEffect, useRef } from "react";
+import { useState} from "react";
 
 const conquistas = [
   {src:'/conquistas-imagens/diploma.png',alt:'Diploma Univap'},
