@@ -22,7 +22,8 @@ export async function POST(req: Request) {
     });
 
     return NextResponse.json({ success: true, message: 'Email enviado com sucesso.' });
-  } catch {
+  } catch (error) {
+  console.error('Erro ao enviar email:', error); // 👈 Isso vai aparecer nos logs do Vercel
   return NextResponse.json({ success: false, message: 'Erro ao enviar email.' }, { status: 500 });
 }
 }
