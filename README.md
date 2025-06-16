@@ -89,4 +89,4 @@ Este projeto é licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICE
 
 ---
 
-Desenvolvido por **Henry Rufino** 🚀
+Desenvolvido por  **Henry Rufino** 🚀
